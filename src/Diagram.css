@@ -1,0 +1,56 @@
+.diagram {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .class-box {
+    border: 2px solid #333;
+    width: 200px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .class-name {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 8px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .class-section {
+    padding: 8px;
+    border-top: 1px solid #333;
+  }
+  
+  .class-section h4 {
+    font-size: 0.9em;
+    margin: 0;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2px;
+  }
+  
+  .class-section ul {
+    list-style-type: none;
+    padding-left: 10px;
+    margin: 0;
+  }
+  
+  .class-section li {
+    font-size: 0.9em;
+    padding: 2px 0;
+  }
+  
+  .relation {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+  }
+  

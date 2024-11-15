@@ -1,0 +1,32 @@
+/* Diagram.css */
+.diagram-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px;
+}
+
+.class-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  width: 200px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.class-name {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.attributes, .methods {
+  margin-top: 8px;
+}
+
+.attribute, .method {
+  font-size: 0.9em;
+  padding-left: 10px;
+}
